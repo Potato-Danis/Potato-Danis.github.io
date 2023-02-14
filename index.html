@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>抽盲盒模拟器</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>抽盲盒模拟器</h1>
+    <div class="gold-container">
+      <span>电池：</span>
+      <span id="gold">0</span>
+	  <span>花费（电池）：</span>
+      <span id="cost">0</span>
+	  <span>价值（电池）：</span>
+      <span id="get">0</span>
+	<div class="gold-container2">
+	  <input type="number" id="addrecharge">
+	  <span>金（1金=10电池）<span>
+      <button id="recharge">充值</button>
+    </div>
+    <div class="card-container">
+      <button id="drawCard">心动盲盒（150电池）</button>
+      <button id="drawCards">十发心动盲盒</button>
+	  <button id="drawCardss">一百发心动盲盒</button>
+    </div>
+    <div class="card-container2">
+      <button id="drawCardb">闪耀盲盒（500电池）</button>
+      <button id="drawCardbs">十发闪耀盲盒</button>
+	  <button id="drawCardbss">一百发闪耀盲盒</button>
+    </div>	
+    <div class="card-container3">
+      <button id="drawCardc">至尊盲盒（1000电池）</button>
+      <button id="drawCardcs">十发至尊盲盒</button>
+	  <button id="drawCardcss">一百发至尊盲盒</button>
+    </div>	
+    <div class="card-containerx">
+      <button id="drawCardx">告白盲盒（250电池）</button>
+      <button id="drawCardxs">十发告白盲盒</button>
+	  <button id="drawCardxss">一百发告白盲盒</button>
+    </div>	
+    <div id="card-result">
+  <p id="card-name"></p>
+  <img id="card-image">
+  <p id="card-rarity"></p>
+</div>
+    <div class="record-container">
+      <h3>盲盒记录</h3>
+      <div id="record"></div>
+    </div>
+  </div>
+  <script type="text/javascript" src="11.js"></script>
+</body>
+</html>
